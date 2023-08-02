@@ -16,8 +16,48 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+
+        <!--Header-->
+        <header>
+            <nav>
+                <img src="images/logo/Booki.png" alt="logo Booki" id="logo">
+                <ul class="liens-navigation">
+                    <li class="lien-hebergements">
+                        <a href="#section-hebergements">Hébergements</a>
+                    </li>
+                    <li class="lien-activites">
+                        <a href="#section-activites">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--main-->
         <main>
+            <section class="intro">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou pleine nature</p>
+            </section>
+            <div class="search">
+                <form method="get" action="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="search" name="city" value="Marseille, France" class="location">
+                    <input type="submit" value="Rechercher" class="search-button">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+
+            <section class="filter">
+                <h2>Filtres</h2>
+                <ul class="option-filter">
+                    <li><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+                    <li><i class="fa-solid fa-person"></i>Familial</li>
+                    <li><i class="fa-solid fa-heart"></i>Romantique</li>
+                    <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+                </ul>
+            </section>
+
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
