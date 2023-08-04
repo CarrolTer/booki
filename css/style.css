@@ -25,6 +25,64 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+#logo {
+    width: 61px;
+    height: 19px;
+    color: #0065FC;
+    padding-top: 1.5%;
+    border-radius: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-block-start: 0em;
+}
+
+.hebergements {
+    padding: 6% 0 0 0;
+    margin-right: 5rem;
+}
+
+.hebergements, .activities {
+    border-top: 2px solid #ffffff;
+    padding: 6% 0 0 0;
+}
+
+.hebergements:hover {
+    border-top: 2px solid #0065FC;
+}
+
+.hebergements:hover a {
+    color:#0065FC;
+}
+
+.activities:hover {
+    border-top: 2px solid #0065FC;
+}
+
+.activities:hover a {
+    color:#0065FC;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -53,6 +111,162 @@ body {
     color: var(--main-bg-color)
 }
 
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+i {
+    color:#0065FC;
+}
+
+.intro p{
+    margin-top: -1%;
+}
+
+.search {
+    height: 49px;
+    left: 55px;
+    top: 199px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.fa-location-dot {
+    color:#000000;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 16px;
+
+}
+
+.search i {
+    left: 0%;
+    right: 85%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.search ::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.location {
+    color:#000000;
+    font-weight: 600;
+    font-size: 18px;
+    text-align:center;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    height: 49px;
+}
+
+input {
+    border: none;
+}
+
+.search-button {
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    width: 134px;
+    height: 49px;
+    top: 199px;
+    left: 342px;
+    padding: 15px 16px 15px 16px;
+    background-color:#0065FC;
+    border: 0px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.filter {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.filter h2{
+    padding-top: 1%;
+}
+
+.option-filter {
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    gap: 15px;
+    margin-left: -2%;
+}
+
+.option-filter li {
+    border: solid #D9D9D9;
+    background-color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+}
+
+.option-filter li:hover {
+    border: solid #D9D9D9;
+    background-color: #deebff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+}
+
+.fa-money-bill-wave, .fa-heart, .fa-fire {
+    padding-right: 5px;
+    width: 22px;
+    height: 17px;
+}
+
+.fa-person {
+    padding-right: 5px;
+    width: 16px;
+    height: 17px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+
+.info i{
+    align-items: center;
+}
+
+.fa-info {
+    border: solid #D9D9D9 1px;
+    width: 1.2%;
+    height: 1.1%;
+    border-radius: 50%;
+    padding: .5%;
+    text-align: center;
+}
+
+.info p{
+    margin-top: 0.5%;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -67,8 +281,8 @@ body {
 }
 
 /****** Hebergements ***********/
-.hebergements {
-    width: 65%;
+.section-hebergements {
+    width: auto;
 }
 
 /****** Populaires ***********/
