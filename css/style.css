@@ -39,7 +39,7 @@ nav {
 
 ul{
     list-style: none;
-}
+}   
 
 #logo {
     width: 61px;
@@ -212,7 +212,6 @@ ul {
     font-size: 17px;
     font-weight: 700;
     gap: 15px;
-    margin-left: -2%;
 }
 
 .option-filter li {
@@ -367,6 +366,7 @@ ul {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .populaires-cards .card-content {
@@ -765,10 +765,6 @@ footer
         margin-left: 6%;
     }
 
-    .intro h1{
-        font-size: 27px;
-    }
-
     .intro p{
         margin-top: -4%;
         font-size: 18px;
@@ -824,7 +820,6 @@ footer
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 90%;
-        margin-left: -2%;
     }
 
     .option-filter li {
@@ -848,7 +843,7 @@ footer
     }
 
     .fa-info{
-        width: 5%;
+        width: 19px;
         height: 19px;
     }
 
@@ -857,7 +852,6 @@ footer
     }
 
     .info p{
-        margin-top: -1.5%;
         width: 80%;
     }
 
